@@ -1,9 +1,7 @@
-Share Link Creator
+OwnCloud Copy Public Link
 ==================
 
-Provides the ability to upload a file to OwnCloud via a supported file manager
-and receive a link to the uploaded file which can then be emailed or shared in
-another way.
+Provides the ability to receive a public link to the selected file.
 
 This script can be integrated in the Thunar file manager as a "custom
 action". The program should also works with other file managers which provide
@@ -27,7 +25,7 @@ Requirements
 
 - curl
 - xclip
-- zenity
+- python-gnomekeyring
 
 Configuration
 -------------

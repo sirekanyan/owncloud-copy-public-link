@@ -1,10 +1,11 @@
 <action>
-        <icon>owncloud.png</icon>
-        <name>Send to ownCloud</name>
+        <icon>owncloud</icon>
+        <name>Copy public link</name>
         <unique-id>1413987903893246-3</unique-id>
         <command>~/bin/shareLinkCreator %F</command>
-        <description>Upload selected files to ownCloud</description>
+        <description>Share file and copy the link</description>
         <patterns>*</patterns>
+        <directories>/home/vadik/cloud</directories>
         <audio-files/>
         <image-files/>
         <other-files/>
